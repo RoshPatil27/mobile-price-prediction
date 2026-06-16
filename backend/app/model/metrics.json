@@ -1,0 +1,53 @@
+{
+  "best_model": "Logistic Regression",
+  "results": {
+    "Logistic Regression": {
+      "Accuracy": 0.8275,
+      "Precision (macro)": 0.8289,
+      "Recall (macro)": 0.8275,
+      "F1 (macro)": 0.8273,
+      "CV Accuracy (5-fold)": 0.7919
+    },
+    "Gradient Boosting": {
+      "Accuracy": 0.8125,
+      "Precision (macro)": 0.8145,
+      "Recall (macro)": 0.8125,
+      "F1 (macro)": 0.812,
+      "CV Accuracy (5-fold)": 0.7775
+    },
+    "Random Forest": {
+      "Accuracy": 0.8125,
+      "Precision (macro)": 0.812,
+      "Recall (macro)": 0.8125,
+      "F1 (macro)": 0.811,
+      "CV Accuracy (5-fold)": 0.7744
+    },
+    "Decision Tree": {
+      "Accuracy": 0.74,
+      "Precision (macro)": 0.7402,
+      "Recall (macro)": 0.74,
+      "F1 (macro)": 0.7388,
+      "CV Accuracy (5-fold)": 0.7412
+    },
+    "SVM (RBF)": {
+      "Accuracy": 0.755,
+      "Precision (macro)": 0.7512,
+      "Recall (macro)": 0.755,
+      "F1 (macro)": 0.7515,
+      "CV Accuracy (5-fold)": 0.7031
+    },
+    "KNN": {
+      "Accuracy": 0.4975,
+      "Precision (macro)": 0.5132,
+      "Recall (macro)": 0.4975,
+      "F1 (macro)": 0.5013,
+      "CV Accuracy (5-fold)": 0.4756
+    }
+  },
+  "class_labels": {
+    "0": "Low Cost",
+    "1": "Medium Cost",
+    "2": "High Cost",
+    "3": "Very High Cost"
+  }
+}
