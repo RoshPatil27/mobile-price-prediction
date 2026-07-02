@@ -10,7 +10,7 @@ Run locally:
     uvicorn app.main:app --reload --port 8000
 
 Then open:
-    https://mobile-price-api.onrender.com/docs   (interactive Swagger UI)
+    https://mobile-price-prediction-1-thf1.onrender.com   (interactive Swagger UI)
 """
 
 import json
