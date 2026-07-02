@@ -10,7 +10,7 @@ Run locally:
     uvicorn app.main:app --reload --port 8000
 
 Then open:
-    http://127.0.0.1:8000/docs   (interactive Swagger UI)
+    https://mobile-price-api.onrender.com/docs   (interactive Swagger UI)
 """
 
 import json
