@@ -95,9 +95,9 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
 
-- Swagger UI: https://mobile-price-api.onrender.com/docs
-- Health check: https://mobile-price-api.onrender.com/health
-- Model info: https://mobile-price-api.onrender.com/model-info
+- Swagger UI: https://mobile-price-prediction-1-thf1.onrender.com/docs
+- Health check: https://mobile-price-prediction-1-thf1.onrender.com/health
+- Model info: https://mobile-price-prediction-1-thf1.onrender.com/model-info
 
 ### 3.4 Run the frontend (React + Vite)
 
@@ -107,12 +107,12 @@ npm install
 npm run dev
 ```
 
-Open https://mobile-price-api.onrender.com — adjust the 20 spec sliders/toggles and click **Run
-Prediction**. The app calls the FastAPI backend at `https://mobile-price-api.onrender.com` by default.
+Open https://mobile-price-prediction-1-thf1.onrender.com — adjust the 20 spec sliders/toggles and click **Run
+Prediction**. The app calls the FastAPI backend at `https://mobile-price-prediction-1-thf1.onrender.com` by default.
 To point at a different backend URL, create `frontend/.env`:
 
 ```
-VITE_API_BASE_URL=https://mobile-price-api.onrender.com
+VITE_API_BASE_URL=https://mobile-price-prediction-1-thf1.onrender.com
 ```
 
 ### 3.5 Explore the notebook
