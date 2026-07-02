@@ -107,7 +107,7 @@ npm install
 npm run dev
 ```
 
-Open http://127.0.0.1:5173 — adjust the 20 spec sliders/toggles and click **Run
+Open https://mobile-price-api.onrender.com — adjust the 20 spec sliders/toggles and click **Run
 Prediction**. The app calls the FastAPI backend at `https://mobile-price-api.onrender.com` by default.
 To point at a different backend URL, create `frontend/.env`:
 
