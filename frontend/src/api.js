@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://mobile-price-prediction-1-thf1.onrender.com'
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://mobile-price-prediction-wnv1.onrender.com'
 
 export async function predictPriceRange(specs) {
   const res = await fetch(`${API_BASE}/predict`, {

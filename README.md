@@ -108,11 +108,11 @@ npm run dev
 ```
 
 Open https://mobile-price-prediction-1-thf1.onrender.com — adjust the 20 spec sliders/toggles and click **Run
-Prediction**. The app calls the FastAPI backend at `https://mobile-price-prediction-1-thf1.onrender.com` by default.
+Prediction**. The app calls the FastAPI backend at `https://mobile-price-prediction-wnv1.onrender.com` by default.
 To point at a different backend URL, create `frontend/.env`:
 
 ```
-VITE_API_BASE_URL=https://mobile-price-prediction-1-thf1.onrender.com
+VITE_API_BASE_URL=https://mobile-price-prediction-wnv1.onrender.com
 ```
 
 ### 3.5 Explore the notebook
