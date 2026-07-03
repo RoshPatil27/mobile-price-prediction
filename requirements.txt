@@ -8,7 +8,8 @@ seaborn==0.13.2
 scikit-learn==1.8.0
 joblib==1.5.3
 jupyter==1.1.1
-
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
 # Optional - the training script and notebook automatically include XGBoost
 # as an extra model if it's installed:
 # xgboost==2.1.1
